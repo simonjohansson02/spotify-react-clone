@@ -2,9 +2,9 @@
 const authEndpoint = 'https://accounts.spotify.com/authorize';
 // Replace with your app's client ID, redirect URI and desired scopes
 const clientId = '19a259550a4f4f6eac1ba512eb8cd49d';
-const liveUri = 'https://techover-spotify.herokuapp.com/';
+const liveUri = 'https://spotify-react-clone-sj.vercel.app/';
 const devUri = 'http://localhost:3000/';
-const redirectUrl = devUri;
+const redirectUrl = liveUri;
 const scopes = [
 	'user-read-currently-playing',
 	'user-read-recently-played',
