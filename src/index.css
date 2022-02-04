@@ -1,0 +1,30 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0px;
+	background: rgb(248, 250, 253);
+	background: linear-gradient(90deg, #f3f6fa 0%, #e8f6f8 50%, #f4f7fd 100%);
+	color: #4e6f7d;
+	background-color: #121212;
+}
+
+.gradient-animation {
+	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+	background: linear-gradient(-45deg, #c021d4, #7123d8, #255bcf, #0ccaec);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
